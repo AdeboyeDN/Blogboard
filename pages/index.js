@@ -4,7 +4,6 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   console.log(process.env.NEXT_PUBLIC_KEY)
-  console.log(process.env.NEXT_PUBLIC_NEW)
   return (
     <div className={styles.container}>
       <Head>
